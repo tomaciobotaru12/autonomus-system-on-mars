@@ -2,7 +2,7 @@
 
 **Author:** Ciobotaru Toma  
 **Date:** March 2026  
-**Context:** Engineering design assignment — Veridion
+**Context:** Engineering design assignment
 
 ---
 
