@@ -8,10 +8,10 @@ Earth communication has a 14-minute round-trip delay.
 
 ## Why This Is Hard
 
-- Earth cannot help — any message sent arrives after the decision must already be made
+- Earth cannot help, any message sent arrives after the decision must already be made
 - The storm cannot be reliably classified from 12 minutes away with onboard sensors alone
-- The three real threats (power loss, sensor blindness, electrostatic damage) are interconnected and self-reinforcing — each one accelerates the others
-- The cost of errors is asymmetric — flying into a global storm destroys the aircraft permanently; landing unnecessarily costs one mission day
+- The three real threats (power loss, sensor blindness, electrostatic damage) are interconnected and self-reinforcing, each one accelerates the others
+- The cost of errors is asymmetric, flying into a global storm destroys the aircraft permanently; landing unnecessarily costs one mission day
 
 ## My Core Insight
 
@@ -25,7 +25,7 @@ A layered autonomous decision engine that:
 1. Fuses data from multiple sensors into a unified storm profile
 2. Computes a continuous risk score rather than attempting storm type classification
 3. Applies hard safety rules that cannot be overridden, followed by risk-threshold rules
-4. Degrades gracefully as sensors fail — always failing toward safety, never toward confidence
+4. Degrades gracefully as sensors fail and always failing toward safety, never toward confidence
 5. Logs every decision with full reasoning for Earth-side post-flight analysis
 
 ---
@@ -78,4 +78,4 @@ The threat cascade diagram is particularly important — it shows why the system
 
 ---
 
-*Assignment submitted by Ciobotaru Toma — March 2026*
+
